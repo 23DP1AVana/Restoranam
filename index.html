@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiri Piri | Gardākie ēdieni</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="nav-container">
+      <div class="logo">Tiri Piri</div>
+      <nav class="nav-links">
+        <a href="#home">Sākums</a>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Par mums ▾</button>
+          <div class="dropdown-content">
+            <a href="#about">Par restorānu</a>
+            <a href="#team">Mūsu komanda</a>
+            <a href="#history">Vēsture</a>
+            <a href="#mission">Mūsu misija</a>
+          </div>
+        </div>
+        
+        <a href="#tables">Galdiņi</a>
+        <a href="#contact">Kontakti</a>
+        <button class="theme-toggle" id="themeToggle">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1 class="fade-in">Izsmalcināta atmosfēra, neaizmirstams vakars</h1>
+      <p class="fade-in">Rezervē savu vietu pie mums un baudi gardu maltīti elegantā vidē.</p>
+      <a href="#tables" class="btn fade-in">Apskatīt galdiņus</a>
+    </div>
+  </section>
+
+  <main>
+    <section id="about" class="about">
+      <h2>Par mums</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Mēs piedāvājam elegantu un mājīgu atmosfēru, izsmalcinātus ēdienus un augstākās klases apkalpošanu. Restorāns "Tiri Piri" ir ideāla vieta gan romantiskām vakariņām, gan svinīgiem pasākumiem.</p>
+          <p>Mūsu virtuvē strādā pieredzējuši pavāri, kuri katru dienu rada īstus gardumus no svaigākajām sastāvdaļām. Mēs ticam, ka ēdiens ir māksla, un mēs vēlamies to dalīties ar jums.</p>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Restorāna interjers">
+        </div>
+      </div>
+    </section>
+
+    <section id="tables" class="tables">
+      <h2>Pieejamie galdiņi</h2>
+      <div class="cards">
+        <div class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Galdiņš pie loga">
+          <div class="card-content">
+            <h3>Galdiņš pie loga</h3>
+            <p>Ideāli piemērots romantiskam vakaram ar skatu uz pilsētu. Izbaudiet gardu maltīti kopā ar brīnišķīgu skatu.</p>
+            <button>Rezervēt</button>
+          </div>
+        </div>
+        <div class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Lielais galds">
+          <div class="card-content">
+            <h3>Lielais galds</h3>
+            <p>Piemērots draugu kompānijai vai ģimenes vakariņām. Lieliski piemērots grupām līdz 8 personām.</p>
+            <button>Rezervēt</button>
+          </div>
+        </div>
+        <div class="card fade-in">
+          <img src="https://images.unsplash.com/photo-1559329007-40df8a9345d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="VIP zona">
+          <div class="card-content">
+            <h3>VIP zona</h3>
+            <p>Privātība un elegance īpašiem dzīves mirkļiem. Pilnīga privātība un personalizēta apkalpošana.</p>
+            <button>Rezervēt</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <aside> 
+      <h3>Īpašie piedāvājumi</h3>
+      <ul>
+        <li>Nedēļas ēdiens ar 20% atlaidi</li>
+        <li>Bezmaksas vīna glāze trešdienās</li>
+        <li>Bezmaksas deserts dzimšanas dienā</li>
+        <li>Ģimenes vakariņas - bērniem ēdiens par brīvu</li>
+        <li>Vakariņas diviem ar dāvanu - šampanieša glāze</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer id="contact">
+    <p>&copy; 2025 Restorāns Tiri Piri | Brīvības iela 123, Rīga</p>
+    <p>Tālrunis: +371 12345678 | E-pasts: info@tiripiri.lv</p>
+    <p>Seko mums: 
+      <a href="#">Facebook</a> | 
+      <a href="#">Instagram</a> | 
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 
