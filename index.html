@@ -56,6 +56,11 @@
 
     <section id="tables" class="tables">
       <h2>Pieejamie galdiņi</h2>
+      <div class="table-controls">
+        <input type="text" id="searchInput" placeholder="Meklēt galdiņu...">
+        <button id="sortAZ">A–Z</button>
+        <button id="sortZA">Z–A</button>
+      </div>
       <div class="cards">
         <div class="card fade-in">
           <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Galdiņš pie loga">
@@ -95,7 +100,22 @@
       </ul>
     </aside>
   </main>
-
+  <section id="contact-form" class="contact-form">
+    <h2>Sazinies ar mums</h2>
+    <form id="contactForm">
+      <label for="name">Vārds:</label>
+      <input type="text" id="name" name="name" required>
+  
+      <label for="email">E-pasts:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="message">Ziņojums:</label>
+      <textarea id="message" name="message" required></textarea>
+  
+      <button type="submit">Nosūtīt</button>
+      <p id="formMessage" class="form-message"></p>
+    </form>
+  </section>
   <footer id="contact">
     <p>&copy; 2025 Restorāns Tiri Piri | Brīvības iela 123, Rīga</p>
     <p>Tālrunis: +371 12345678 | E-pasts: info@tiripiri.lv</p>
